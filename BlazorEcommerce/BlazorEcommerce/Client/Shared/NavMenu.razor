@@ -1,0 +1,245 @@
+﻿@inject ICarritoServicio carritoServicio
+@inject SweetAlertService Swal;
+@inject NavigationManager _navigationManager
+@implements IDisposable
+@using BlazorEcommerce.Client.Extensiones;
+@using Microsoft.AspNetCore.Components.Authorization
+@using System.Security.Claims;
+@inject AuthenticationStateProvider autenticacionProvider
+
+@*<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">BlazorEcommerce</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            </NavLink>
+        </div>
+    </nav>
+</div>
+*@
+
+
+
+<style>
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .sidebar {
+        background-color: #f8f9fa;
+        padding: 10px;
+    }
+
+        .sidebar a {
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .sidebar ul {
+            padding-left: 0;
+        }
+
+        .sidebar .nav-item {
+            list-style-type: none;
+            margin-bottom: 10px;
+        }
+
+    .navbar {
+        background-color: #191918;
+        padding: 10px;
+    }
+
+    
+
+    .nav-item {
+        transition: background-color 0.3s ease;
+    }
+
+        .nav-item:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+    .custom-button {
+        color: white;
+        border-color: white;
+        background-color: transparent;
+        transition: background-color 0.3s ease;
+    }
+
+        .custom-button:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+    .custom-link {
+        color: white;
+        border: 1px solid white;
+        background-color: transparent;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .custom-link:hover {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+
+    .bg-custom {
+        background-color: #96908A;
+    }
+</style>
+
+
+
+
+<div class="container-fluid">
+    <div class="row position-fixed w-100" >
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-custom">
+            <AuthorizeView>
+                <Authorized>
+                    <span class="navbar-text me-3">
+                        @context.User.Claims.Where(c => c.Type == ClaimTypes.Email).Select(c => c.Value).SingleOrDefault()
+                    </span>
+                </Authorized>
+            </AuthorizeView>
+
+            <div class="ms-auto">
+                <a class="btn btn-outline-dark me-2 custom-link" href="/cart">
+                    <i class="bi-cart-fill me-1"></i>
+                    Cart
+                    <span class="badge bg-dark text-white ms-1 rounded-pill">@mostrarCantidadCarrito()</span>
+                </a>
+
+                <AuthorizeView>
+                    <Authorized>
+                        <button class="btn btn-outline-dark custom-button" type="button" @onclick="CerrarSesion">Salir</button>
+                    </Authorized>
+                    <NotAuthorized>
+                        <a class="btn btn-outline-dark custom-button" href="/login">Iniciar sesión</a>
+                    </NotAuthorized>
+                </AuthorizeView>
+            </div>
+        </nav>
+
+    </div>
+    <div class="row">
+        <div class="col-lg-2 sidebar position-fixed vh-100 " style="background-color: #5C5854 ; padding: 10px;">
+            <br />
+            <div class="d-flex justify-content-center align-items-center">
+                <a class="navbar-brand text-white mt-3" runat="server" href="#">Time Revolution</a>
+            </div>
+
+            <br />
+            <br />
+            <br />
+
+            <ul class="nav flex-column">
+                <AuthorizeView Roles="Usuario">
+                    <Authorized>
+                        
+                        <li class="nav-item">
+                            <NavLink class="nav-link text-white" href="dashboard">
+                                <span class="nav-link-text">Dashboard</span>
+                            </NavLink>
+                        </li>
+                        <li class="nav-item">
+                            <NavLink class="nav-link text-white" href="usuarios">
+                                <span class="nav-link-text">Usuarios</span>
+                            </NavLink>
+                        </li>
+                        <li class="nav-item">
+                            <NavLink class="nav-link text-white" href="categorias">
+                                <span class="nav-link-text">Categorias</span>
+                            </NavLink>
+                        </li>
+                        <li class="nav-item">
+                            <NavLink class="nav-link text-white" href="productos">
+                                <span class="nav-link-text">Productos</span>
+                            </NavLink>
+                        </li>
+                    </Authorized>
+                </AuthorizeView>
+                <br />
+                <br />
+                <li class="nav-item"><NavLink class="nav-link text-white" href="catalogo">Tienda</NavLink></li>
+            </ul>
+        </div>
+        <div class="col-lg-10 offset-lg-2">
+            <!-- Aquí va el contenido del slider -->
+        </div>
+    </div>
+</div>
+
+
+@code {
+    private bool collapseNavMenu = true;
+    private bool collapseMenuUser = false;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    private string? UserMenuCssClass => collapseMenuUser ? "show" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+    private void ToggleMenuUser()
+    {
+        collapseMenuUser = !collapseMenuUser;
+    }
+
+    protected override void OnInitialized()
+    {
+        carritoServicio.ActualizarVista += StateHasChanged;
+    }
+    public void Dispose()
+    {
+        carritoServicio.ActualizarVista += StateHasChanged;
+    }
+
+    private int mostrarCantidadCarrito()
+    {
+        return carritoServicio.CantidadProductos();
+    }
+    private async Task CerrarSesion()
+    {
+        SweetAlertResult result = await Swal.FireAsync(new SweetAlertOptions
+            {
+                Title = "Desea salir?",
+                Icon = SweetAlertIcon.Info,
+                ShowCancelButton = true,
+                ConfirmButtonText = "Si",
+                CancelButtonText = "No"
+            });
+
+        if (result.IsConfirmed)
+        {
+            var autenticacionExt = (AutenticacionExtension)autenticacionProvider;
+            await autenticacionExt.ActualizarEstadoAutenticacion(null);
+            _navigationManager.NavigateTo("/", true);
+        }
+    }
+}
