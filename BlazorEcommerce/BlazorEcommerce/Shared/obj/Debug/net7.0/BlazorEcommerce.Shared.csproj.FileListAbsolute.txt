@@ -22,3 +22,15 @@ D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce
 D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\refint\BlazorEcommerce.Shared.dll
 D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\BlazorEcommerce.Shared.pdb
 D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\ref\BlazorEcommerce.Shared.dll
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\bin\Debug\net7.0\BlazorEcommerce.Shared.deps.json
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\bin\Debug\net7.0\BlazorEcommerce.Shared.dll
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\bin\Debug\net7.0\BlazorEcommerce.Shared.pdb
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\BlazorEcommerce.Shared.csproj.AssemblyReference.cache
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\BlazorEcommerce.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\BlazorEcommerce.Shared.AssemblyInfoInputs.cache
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\BlazorEcommerce.Shared.AssemblyInfo.cs
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\BlazorEcommerce.Shared.csproj.CoreCompileInputs.cache
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\BlazorEcommerce.Shared.dll
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\refint\BlazorEcommerce.Shared.dll
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\BlazorEcommerce.Shared.pdb
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net7.0\ref\BlazorEcommerce.Shared.dll

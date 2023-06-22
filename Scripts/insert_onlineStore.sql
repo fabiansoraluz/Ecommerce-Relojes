@@ -9,12 +9,12 @@ insert into Persona(NombreCompleto,Correo,Clave,Rol) values
 go
 
 insert into Categoria(Nombre) values
-('Caballeros'),
-('Damas'),
-('Infantes'),
-('Deportivos'),
-('Edicion Limitada'),
-('Smart')
+('Basquet'),
+('Correr'),
+('Entrenamiento'),
+('Futbol'),
+('Stake'),
+('variados')
 GO
 
 

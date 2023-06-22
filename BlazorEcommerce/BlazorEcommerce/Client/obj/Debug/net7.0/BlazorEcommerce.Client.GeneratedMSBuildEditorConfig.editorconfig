@@ -9,81 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorEcommerce.Client
 build_property.RootNamespace = BlazorEcommerce.Client
-build_property.ProjectDir = D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce\BlazorEcommerce\Client\
+build_property.ProjectDir = D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce\BlazorEcommerce\Client
+build_property.MSBuildProjectDirectory = D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/App.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Autorizacion/Login.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Autorizacion/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0b3JpemFjaW9uXExvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Autorizacion/Registro.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Autorizacion/Registro.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0b3JpemFjaW9uXFJlZ2lzdHJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Categoria.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Categoria.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Categorias.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Categorias.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Dashboard.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Producto.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Producto.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Productos.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Productos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdG9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Tienda/Cart.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Tienda/Cart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGllbmRhXENhcnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Tienda/Catalogo.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Tienda/Catalogo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGllbmRhXENhdGFsb2dvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Tienda/Detalle.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Tienda/Detalle.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGllbmRhXERldGFsbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Usuario.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Usuario.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Pages/Usuarios.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Pages/Usuarios.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Shared/LoginLayout.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Shared/LoginLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Shared/MainLayout.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Shared/NavMenu.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/Shared/SurveyPrompt.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Client/_Imports.razor]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

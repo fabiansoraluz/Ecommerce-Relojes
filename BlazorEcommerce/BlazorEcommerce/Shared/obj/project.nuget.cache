@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NmRv4zfq2yADbpNJRMv4teIoMt/b4qEUgI6i0I11CCJc68OgcMRNQ6wAh2MEgHlCSA6ivGKhIAHiEu7efkFUqw==",
+  "dgSpecHash": "Qn5imAzl+MrDwlO8RJPsr5tFio/+Kz+gVoAJDgMzSXpvMgR4vwcNmCIWuh3XcTs8OQqt2UYQd0U0K4L7x70axw==",
   "success": true,
-  "projectFilePath": "D:\\SAVE\\ESTUDIOS\\CIBERTEC\\CICLO 5\\CURSOS\\EFSRT IV\\EcommersStore2\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj",
+  "projectFilePath": "D:\\DSWI PROY\\NetCore_project\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

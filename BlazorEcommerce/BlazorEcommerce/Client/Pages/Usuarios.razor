@@ -56,10 +56,18 @@
                         </div>
                         <div class="card-footer bg-transparent">
                             <div class="row justify-content-between">
-                                <a class="col-5 btn btn-sm btn-outline-primary mt-auto" href="/usuario/@item.IdPersona"><i class="oi oi-pencil fs-5"></i></a>
-                                <button class="col-5 btn btn-sm btn-outline-danger mt-auto" type="button" @onclick="(async () => await Eliminar(item))">
-                                    <i class="oi oi-trash fs-5"></i>
-                                </button>
+                                @if (item.NombreCompleto != "administrador")
+                                {
+                                    <a class="col-5 btn btn-sm btn-outline-primary mt-auto" href="/usuario/@item.IdPersona"><i class="oi oi-pencil fs-5"></i></a>
+                                    <button class="col-5 btn btn-sm btn-outline-danger mt-auto" type="button" @onclick="(async () => await Eliminar(item))">
+                                        <i class="oi oi-trash fs-5"></i>
+                                    </button>
+                                }
+                                else
+                                {
+                                    <a class="col-5 btn btn-sm btn-outline-primary mt-auto" href="/usuario/@item.IdPersona"><i class="oi oi-pencil fs-5"></i></a>
+                                    <div class="col-5"></div>
+                                }
                             </div>
                         </div>
                     </div>

@@ -4467,24 +4467,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xScre\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SAVE\\ESTUDIOS\\CIBERTEC\\CICLO 5\\CURSOS\\EFSRT IV\\EcommersStore2\\BlazorEcommerce\\BlazorEcommerce\\Server\\BlazorEcommerce.Server.csproj",
+      "projectUniqueName": "D:\\DSWI PROY\\NetCore_project\\BlazorEcommerce\\BlazorEcommerce\\Server\\BlazorEcommerce.Server.csproj",
       "projectName": "BlazorEcommerce.Server",
-      "projectPath": "D:\\SAVE\\ESTUDIOS\\CIBERTEC\\CICLO 5\\CURSOS\\EFSRT IV\\EcommersStore2\\BlazorEcommerce\\BlazorEcommerce\\Server\\BlazorEcommerce.Server.csproj",
-      "packagesPath": "C:\\Users\\xScre\\.nuget\\packages\\",
-      "outputPath": "D:\\SAVE\\ESTUDIOS\\CIBERTEC\\CICLO 5\\CURSOS\\EFSRT IV\\EcommersStore2\\BlazorEcommerce\\BlazorEcommerce\\Server\\obj\\",
+      "projectPath": "D:\\DSWI PROY\\NetCore_project\\BlazorEcommerce\\BlazorEcommerce\\Server\\BlazorEcommerce.Server.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\DSWI PROY\\NetCore_project\\BlazorEcommerce\\BlazorEcommerce\\Server\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\xScre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4492,18 +4487,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\SAVE\\ESTUDIOS\\CIBERTEC\\CICLO 5\\CURSOS\\EFSRT IV\\EcommersStore2\\BlazorEcommerce\\BlazorEcommerce\\Client\\BlazorEcommerce.Client.csproj": {
-              "projectPath": "D:\\SAVE\\ESTUDIOS\\CIBERTEC\\CICLO 5\\CURSOS\\EFSRT IV\\EcommersStore2\\BlazorEcommerce\\BlazorEcommerce\\Client\\BlazorEcommerce.Client.csproj"
+            "D:\\DSWI PROY\\NetCore_project\\BlazorEcommerce\\BlazorEcommerce\\Client\\BlazorEcommerce.Client.csproj": {
+              "projectPath": "D:\\DSWI PROY\\NetCore_project\\BlazorEcommerce\\BlazorEcommerce\\Client\\BlazorEcommerce.Client.csproj"
             },
-            "D:\\SAVE\\ESTUDIOS\\CIBERTEC\\CICLO 5\\CURSOS\\EFSRT IV\\EcommersStore2\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj": {
-              "projectPath": "D:\\SAVE\\ESTUDIOS\\CIBERTEC\\CICLO 5\\CURSOS\\EFSRT IV\\EcommersStore2\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj"
+            "D:\\DSWI PROY\\NetCore_project\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj": {
+              "projectPath": "D:\\DSWI PROY\\NetCore_project\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj"
             }
           }
         }
@@ -4560,7 +4554,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

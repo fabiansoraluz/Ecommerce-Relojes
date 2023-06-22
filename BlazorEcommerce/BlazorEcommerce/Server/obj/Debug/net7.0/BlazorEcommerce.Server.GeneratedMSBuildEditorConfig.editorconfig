@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorEcommerce.Server
 build_property.RootNamespace = BlazorEcommerce.Server
-build_property.ProjectDir = D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce\BlazorEcommerce\Server\
+build_property.ProjectDir = D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Server\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce\BlazorEcommerce\Server
+build_property.MSBuildProjectDirectory = D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Server
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/SAVE/ESTUDIOS/CIBERTEC/CICLO 5/CURSOS/EFSRT IV/EcommersStore2/BlazorEcommerce/BlazorEcommerce/Server/Pages/Error.cshtml]
+[D:/DSWI PROY/NetCore_project/BlazorEcommerce/BlazorEcommerce/Server/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
