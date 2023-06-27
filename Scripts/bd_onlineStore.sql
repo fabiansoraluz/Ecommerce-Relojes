@@ -30,7 +30,7 @@ create table Persona(
 IdPersona int primary key identity,
 NombreCompleto varchar(50),
 Correo varchar(50),
-Clave varchar(50),
+Clave varchar(max),
 Rol varchar(50),
 FechaCreacion datetime default getdate()
 )

@@ -81,7 +81,6 @@ public partial class DbtiendaBlazorContext : DbContext
             entity.ToTable("Persona");
 
             entity.Property(e => e.Clave)
-                .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.Correo)
                 .HasMaxLength(50)

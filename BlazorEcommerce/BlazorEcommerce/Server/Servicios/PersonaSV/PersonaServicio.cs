@@ -2,6 +2,10 @@
 using BlazorEcommerce.Shared;
 using Microsoft.EntityFrameworkCore;
 using System.Drawing;
+using System.Net.Mail;
+using System.Net;
+using System.Text;
+using System.Security.Cryptography;
 
 namespace BlazorEcommerce.Server.Servicios.PersonaSV
 {
@@ -9,10 +13,12 @@ namespace BlazorEcommerce.Server.Servicios.PersonaSV
     {
         private readonly IGenericoRepositorio<Persona> _personaRepositorio;
         private readonly IMapper _mapper;
-        public PersonaServicio(IGenericoRepositorio<Persona> personaRepositorio, IMapper mapper)
+        public readonly IConfiguration? _configuration;
+        public PersonaServicio(IGenericoRepositorio<Persona> personaRepositorio, IMapper mapper, IConfiguration configuration)
         {
             _personaRepositorio = personaRepositorio;
             _mapper = mapper;
+            _configuration = configuration;
 
         }
         public async Task<ResponseDTO<PersonaDTO>> Obtener(int id)
@@ -73,6 +79,7 @@ namespace BlazorEcommerce.Server.Servicios.PersonaSV
             return response;
         }
 
+
         public async Task<ResponseDTO<PersonaDTO>> Crear(PersonaDTO modelo)
         {
             ResponseDTO<PersonaDTO> response = new ResponseDTO<PersonaDTO>()
@@ -84,16 +91,21 @@ namespace BlazorEcommerce.Server.Servicios.PersonaSV
             try
             {
                 var dbModelo = _mapper.Map<Persona>(modelo);
+
+                // Encriptar la clave
+                dbModelo.Clave = HashClave(modelo.Clave);
+
                 var rspModelo = await _personaRepositorio.Crear(dbModelo);
 
                 if (rspModelo.IdPersona != 0)
+                {
                     response.Resultado = _mapper.Map<PersonaDTO>(rspModelo);
+                }
                 else
                 {
                     response.EsCorrecto = false;
                     response.Mensaje = "No se pudo crear";
                 }
-
             }
             catch (Exception ex)
             {
@@ -103,8 +115,24 @@ namespace BlazorEcommerce.Server.Servicios.PersonaSV
             }
 
             return response;
-
         }
+
+
+        private string HashClave(string clave)
+        {
+            using (SHA256 sha256Hash = SHA256.Create())
+            {
+                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(clave));
+                StringBuilder builder = new StringBuilder();
+                for (int i = 0; i < bytes.Length; i++)
+                {
+                    builder.Append(bytes[i].ToString("x2"));
+                }
+                return builder.ToString();
+            }
+        }
+
+
 
         public async Task<ResponseDTO<bool>> Editar(PersonaDTO modelo)
         {
@@ -200,17 +228,28 @@ namespace BlazorEcommerce.Server.Servicios.PersonaSV
 
             try
             {
-                var consulta = _personaRepositorio.Consultar(p => p.Correo == modelo.Correo && p.Clave == modelo.Clave);
+                var consulta = _personaRepositorio.Consultar(p => p.Correo == modelo.Correo);
                 var fromDbModelo = await consulta.FirstOrDefaultAsync();
 
                 if (fromDbModelo != null)
-                    response.Resultado = _mapper.Map<SesionDTO>(fromDbModelo);
+                {
+                    // Encriptar la clave ingresada y compararla con la clave encriptada almacenada
+                    string claveEncriptada = HashClave(modelo.Clave);
+                    if (claveEncriptada == fromDbModelo.Clave)
+                    {
+                        response.Resultado = _mapper.Map<SesionDTO>(fromDbModelo);
+                    }
+                    else
+                    {
+                        response.EsCorrecto = false;
+                        response.Mensaje = "Credenciales inválidas";
+                    }
+                }
                 else
                 {
                     response.EsCorrecto = false;
                     response.Mensaje = "No se encontraron coincidencias";
                 }
-
             }
             catch (Exception ex)
             {

@@ -1704,11 +1704,17 @@ D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce
 D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net7.0\refint\BlazorEcommerce.Client.dll
 D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net7.0\BlazorEcommerce.Client.pdb
 D:\SAVE\ESTUDIOS\CIBERTEC\CICLO 5\CURSOS\EFSRT IV\EcommersStore2\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net7.0\ref\BlazorEcommerce.Client.dll
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\BlazorEcommerce.Client.dll
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\BlazorEcommerce.Client.pdb
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\BlazorEcommerce.Shared.dll
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\BlazorEcommerce.Shared.pdb
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.LocalStorage.dll
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.SessionStorage.dll
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.Toast.dll
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\CurrieTechnologies.Razor.SweetAlert2.dll
+D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.4.t79d510wfq.js
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\icudt.dat
@@ -1907,12 +1913,6 @@ D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\ne
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
-D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
-D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\BlazorEcommerce.Client.dll
-D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\BlazorEcommerce.Client.pdb
-D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\BlazorEcommerce.Shared.dll
-D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\BlazorEcommerce.Shared.pdb
-D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.4.t79d510wfq.js
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
 D:\DSWI PROY\NetCore_project\BlazorEcommerce\BlazorEcommerce\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
