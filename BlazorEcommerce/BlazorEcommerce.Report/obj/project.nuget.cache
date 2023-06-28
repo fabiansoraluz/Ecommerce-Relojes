@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "XOob3Vmxs2GQoXF6R7GD8G2WSEhL8joDHDe0UEf0wz4Y0MaI7+gdVHetzjjupzH8sXt/orOeitubEVlty4BIGg==",
+  "success": true,
+  "projectFilePath": "D:\\DSWI PROY\\NetCore_project\\BlazorEcommerce\\BlazorEcommerce.Report\\BlazorEcommerce.Report.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\harfbuzzsharp\\2.8.2.3\\harfbuzzsharp.2.8.2.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\2.8.2.3\\harfbuzzsharp.nativeassets.macos.2.8.2.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\2.8.2.3\\harfbuzzsharp.nativeassets.win32.2.8.2.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\questpdf\\2023.5.3\\questpdf.2023.5.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\skiasharp\\2.88.3\\skiasharp.2.88.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.3\\skiasharp.harfbuzz.2.88.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.3\\skiasharp.nativeassets.macos.2.88.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.3\\skiasharp.nativeassets.win32.2.88.3.nupkg.sha512"
+  ],
+  "logs": []
+}
